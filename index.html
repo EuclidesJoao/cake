@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NKCB</title>
+    
+    <!--Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!--CSS-->
+    <link rel="stylesheet" href="./css/index.css">
+
+    <!--Fontawsome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!--Google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <header class="header p-2">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container">
+              <a class="navbar-brand logo" href="#"><img src="./img/png/10000.png" alt="logotipo" class="img-fluid"></a>
+
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+
+              <div class="collapse navbar-collapse" id="navbarScroll">
+
+                <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                </ul>
+
+                <form class="d-flex">
+                    <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll navigation" style="--bs-scroll-height: 100px;">
+                        <li class="nav-item">
+                          <a class="nav-link" aria-current="page" href="#">Inicio</a>
+                        </li>
+      
+                        <li class="nav-item dropdown">
+                          <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Sobre</a>
+                          <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                            <li><a class="dropdown-item" href="#">Carreiras</a></li>
+                            <li><a class="dropdown-item" href="#">Seja nosso parceiro</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="#">Porquê nos escolher</a></li>
+                          </ul>
+                        </li>
+                        
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Serviços</a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                                <li><a class="dropdown-item" href="#">Treinamento</a></li>
+                                <li><a class="dropdown-item" href="#">#</a></li>
+                                <!-- <li><hr class="dropdown-divider"></li> -->
+                                <li><a class="dropdown-item" href="#">#</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item">
+                          <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Contactos</a>
+                        </li>
+                    </ul>
+                </form>
+      
+              </div>
+            </div>
+        </nav>
+    </header>
+    
+    <div class="mother d-flex flex-column">
+
+        <section class="sec-1 container-fluid show-animate d-flex align-items-md-center justify-content-md-center">
+            <div id="carouselExampleFade" class="carousel slide carousel-fade " data-bs-ride="carousel">
+                
+                <div class="carousel-inner">
+
+                    <div class="carousel-item active carousel-item-1 d-flex align-items-center justify-content-md-center">
+                    </div>
+
+                    <div class="carousel-item carousel-item-2">
+                    </div>
+
+                    <div class="carousel-item carousel-item-3">
+                    </div>
+
+                </div>
+
+                <!-- <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button> -->
+            </div>
+        </section>
+
+        <section class="sec-2 container py-4 d-flex align-items-center">
+
+            <div class="d-flex align-items-md-center justify-content-md-center conteudo">
+                
+                <div class="d-flex flex-column justify-content-md-center col-md-4 content animate">
+                    <h1 class="text-start">Quem somos</h1>
+                    <p>
+                        A NKCB é uma renomada empresa angolana dedicada a fornecer uma ampla gama de 
+                        serviços financeiros, destacando-se nas áreas de auditoria, consultoria, 
+                        assessoria fiscal e assistência contábil.
+                    </p>
+                    <a><button>Saber mais</button></a>
+                </div>
+                    
+                <div id="carouselExampleIndicators" class="carousel slide col-md-8 animate" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                        <img src="./img/jpg/10000.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                        <img src="./img/jpg/10001.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                        <img src="./img/jpg/10002.jpg" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+
+            </div>
+
+        </section>
+
+        <section class="sec-3 container d-flex flex-column align-items-md-center justify-content-md-between py-4">
+            <div class="animate">
+                <h1 class="text-center">Os nossos serviços</h1>
+                <h5>Levam o seu negócio para o próximo nível</h5>
+            </div>
+            
+            <div class="ourservices row d-flex justify-content-md-between">
+                <div class="service animate col-md-4 d-md-flex flex-column align-items-md-center justify-content-between" style="--i:0">
+                    
+                    <div class="d-flex flex-column align-items-center">
+                        <img src="./img/png/10005.png"/>
+                        <h3>Contabilidade financeira</h3>
+                    </div>
+
+                    
+                    <div>
+                        <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad, recusandae atque dicta, itaque deleniti unde ut quis ea quibusdam odio blanditiis officiis quod accusamus nisi numquam mollitia similique? Amet, error.</p>
+                    </div>
+                
+                    <a><button>Saber mais</button></a>
+                </div>
+
+                <div class="service animate col-md-4 d-md-flex flex-column align-items-md-center justify-content-between" style="--i:1">
+              
+                    <div class="d-flex flex-column align-items-center">
+                        <img src="./img/png/10003.png"/>
+                        <h3>Formação</h3>
+                    </div>
+                    
+                    <div>
+                        <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad, recusandae atque dicta, itaque deleniti unde ut quis ea quibusdam odio blanditiis officiis quod accusamus nisi numquam mollitia similique? Amet, error.</p>
+                    </div>
+
+                    <a><button>Saber mais</button></a>
+                </div>
+
+                <div class="service animate col-md-4 d-md-flex flex-column align-items-md-center justify-content-between" style="--i:2">
+              
+                    <div class="d-flex flex-column align-items-center">
+                        <img src="./img/png/10004.png"/>
+                        <h3>Recursos humanos</h3>
+                    </div>
+
+                    <div>
+                        <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad, recusandae atque dicta, itaque deleniti unde ut quis ea quibusdam odio blanditiis officiis quod accusamus nisi numquam mollitia similique? Amet, error.</p>
+                    </div>
+
+                    <a><button>Saber mais</button></a>
+                </div>
+            </div>
+
+            <a><button class="see-all">Ver todos serviços</button></a>
+        </section>
+
+        <section class="sec-4 d-flex flex-column justify-content-md-center align-items-center p-4">
+   
+            <h1 class="animate" style="--i:0">Os nossos cursos</h1>
+            
+            <ul class="d-flex align-items-center justify-content-md-between">
+                <li class="course d-flex flex-column align-items-center justify-content-between animate" style="--i:1">
+                    <img src="./img/png/10008.png"/>
+                    
+                    <div class="d-flex flex-column align-items-center">
+                        <h3>Gestão financeira</h3>
+                        <p>Carga horaria: 30 horas</p>
+                    </div>
+                    <a><button>Saber mais</button></a>
+                </li>
+
+                <li class="course d-flex flex-column align-items-center justify-content-between  animate" style="--i:2">
+                    <img src="./img/png/10009.png"/>
+
+                    <div class="d-flex flex-column align-items-center">
+                        <h3>Marketing Digital</h3>
+                        <p>Carga horaria: 30 horas</p>
+                    </div>
+
+                   <a><button>Saber mais</button></a>
+                </li>
+
+                <li class="course d-flex flex-column align-items-center justify-content-between  animate" style="--i:3">
+                    <img src="./img/png/10010.png"/>
+                    
+                    <div class="d-flex flex-column align-items-center">
+                        <h3>Gestão de recursos humanos</h3>
+                        <p>Carga horaria: 30 horas</p>
+                    </div>
+                    <a><button>Saber mais</button></a>
+                </li>
+
+                <li class="course d-flex flex-column align-items-center justify-content-between  animate" style="--i:4">
+                    <img src="./img/png/10006.png"/>
+                    
+                    <div class="d-flex flex-column align-items-center">
+                        <h3>Informática</h3>
+                       <p>Carga horaria: 30 horas</p>
+                    </div>
+                    <a><button>Saber mais</button></a>
+                </li>
+            </ul>
+
+            <a class="animate animate-button" style="--i:4"><button>Ver todos os cursos</button></a>
+        </section>
+
+        <section class="sec-5 container d-flex align-items-center justify-content-md-center">
+            <div class="d-flex align-items-center ourteam p-2">    
+                
+                <div class="col-md-4 d-flex flex-column ">
+                    <div>
+                        <h1 class="text-start">Nossa equipa</h1>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Totam ex iste nesciunt fuga reiciendis explicabo quae iure 
+                            libero ad blanditiis obcaecati sint vel, odio odit sit ipsa 
+                            laudantium maxime molestiae.
+                        </p>
+                    </div>
+                    <a><button>Saber mais</button></a> 
+                </div>
+
+                <div class="col-md-8 image d-flex align-items-center">
+                    <img src="./img/jpg/10005.jpg" class="img-fluid"/>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="sec-6 container-fluid d-flex align-items-center flex-column justify-content-md-between py-4">
+            <div class="animate">
+                <h1 class="text-center">Os nossos clientes</h1>
+                <h5>Conheça alguns clientes satisfeitos que confiaram em nosso trabalho</h5>
+            </div>
+
+            <div class="d-flex align-items-center justify-content-md-center flex-wrap partners animate">
+                <img class="img-responsive" src="./img/png/partners/10000.png" alt=""/>
+                <img class="img-responsive" src="./img/png/partners/10001.png" alt=""/>
+                <img class="img-responsive" src="./img/png/partners/10002.png" alt=""/>
+                <img class="img-responsive" src="./img/png/partners/10003.png" alt=""/>
+                <img class="img-responsive" src="./img/png/partners/10004.png" alt=""/>
+                <img class="img-responsive" src="./img/png/partners/10005.png" alt=""/>
+                <img class="img-responsive" src="./img/png/partners/10006.png" alt=""/>
+                <img class="img-responsive" src="./img/png/partners/10007.png" alt=""/>
+                <img class="img-responsive" src="./img/png/partners/10008.png" alt=""/>
+                <img class="img-responsive" src="./img/png/partners/10009.png" alt=""/>
+                <img class="img-responsive" src="./img/png/partners/10010.png" alt=""/>
+                <img class="img-responsive" src="./img/png/partners/10011.png" alt=""/>
+            </div>
+
+            <a><button>Saber mais</button></a>
+        </section> 
+
+        <section class="sec-7 container py-4 d-flex flex-column align-items-md-center justify-content-center">
+            
+            <h1 class="text-center animate" id="--i:0">Porquê nos escolher</h1>
+
+            <div class="reasons animate d-flex justify-content-md-between flex-wrap align-items-center ">
+                <div class="reason d-flex flex-column align-items-center justify-content-md-center" style="--:0">
+                    <img src="./img/png/10013.png" alt=""/>
+                    <h3>Profundo conhecimento da indústria</h3>
+                </div>
+
+                <div class="reason d-flex flex-column align-items-center justify-content-md-center" style="--:1">
+                    <img src="./img/png/10014.png" alt=""/>
+                    <h3>Anos de experiência</h3>
+                </div>
+              
+                <div class="reason d-flex flex-column align-items-center justify-content-md-center" style="--:2">
+                    <img src="./img/png/10016.png" alt=""/>
+                    <h3>Evoluindo Constantemente</h3>
+                </div>
+                
+                <div class="reason d-flex flex-column align-items-center justify-content-md-center" style="--:3">
+                    <img src="./img/png/10011.png" alt=""/>
+                    <h3>Profissionais Certificados</h3>
+                </div>
+
+                <div class="reason d-flex flex-column align-items-center justify-content-md-center" style="--:4">
+                    <img src="./img/png/10012.png" alt=""/>
+                    <h3>Mais de 100 clientes satisfeitos</h3>
+                </div>
+
+                <div class="reason d-flex flex-column align-items-center justify-content-md-center" style="--:5">
+                    <img src="./img/png/10015.png" alt=""/>
+                    <h3>Negociação baseado em dados</h3>
+                </div>
+            </div>
+        </section>
+
+    </div>
+    
+
+    <div class="formulary ">
+
+        <div class="d-flex align-items-center justify-content-md-between cabeca">
+            <div class="d-flex flex-column">
+                <img src="./img/logo.png" alt=""/>
+            </div>
+            
+            <i class="fa-solid fa-xmark closeForm"></i>
+        </div>
+
+        <form class="d-flex flex-column justify-content-md-between">
+            <div class="d-flex flex-column my-2">
+                <label>Primeiro nome</label>
+                <input type="text" class="" id="exampleInputEmail1" aria-describedby="emailHelp">
+            </div>
+
+            <div class="d-flex flex-column my-2">
+                <label>Segundo nome</label>
+                <input type="text" class="" id="exampleInputEmail1" aria-describedby="emailHelp">
+            </div>
+
+            <div class="d-flex flex-column my-2">
+                <label>Telefone</label>
+                <input type="tel" id="phone" name="phone" class="" id="exampleInputEmail1" aria-describedby="emailHelp">
+            </div>
+
+            <div class="d-flex flex-column my-2">
+                <label>Mensagem</label>
+                <textarea class="" id="" rows="3"></textarea>
+            </div>
+
+            <button type="" class="">Submit</button>
+        </form>
+    </div>
+
+    <div class="chat">
+        <img src="./img/png/10002.png" alt="placeholder" class="img-responsive"/>
+    </div>
+
+    <footer class="footer">
+        <div class="container d-flex justify-content-md-between p">
+
+            <div class="col-md-2 d-flex flex-column ">
+                <h2 class="">Serviços</h2>
+
+                <ul>
+                    <li><a href="#">Treinamento</a></li>
+                    <li><a href="#">Consultotia</a></li>
+                </ul>
+            </div>
+
+            <div class="col-md-2 d-flex flex-column ">
+                <h2>Empresa</h2>
+
+                <ul class="d-flex flex-column ">
+                    <li><a href="#">Quem somos</a></li>
+                    <li><a href="#">Acessibilidade</a></li>
+                    <li><a href="#">Investidores</a></li>
+                    <li><a href="#">Mapa do site</a></li>
+                    <li><a href="#">Carreiras</a></li>
+                </ul>
+            </div>    
+
+            <div class="col-md-2 d-flex flex-column ">
+                <h2>Aprender</h2>
+
+                <ul class="d-flex flex-column ">
+                    <li><a href="#">Excel iniciação</a></li>
+                    <li><a href="#">Gestão financeira</a></li>
+                    <li><a href="#">Contabilidade</a></li>
+                    <li><a href="#">Informatica na optica do utilizador</a></li>
+                    <li><a href="#">Elaboração de planos de negócios</a></li>
+                    <li><a href="#">Marketing</a></li>
+                </ul>
+            </div>
+
+            <div class="col-md-6 d-flex flex-column contacts">
+              
+                <div class="d-flex justify-content-md-end w-100 brand">
+                    <img src="./img/logo.png" alt="placeholder" class="img-fluid"/>
+                </div>
+
+                <ul class="d-flex align-items-md-center justify-content-md-end my-md-3">
+                    <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+                </ul>
+
+            </div>
+
+        </div>
+
+        <div class="">
+
+        </div>
+    </footer>
+
+    <!--Bootstrap-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    
+    <!--External file-->
+    <script src="./js/index.js"></script>
+</body>
+
+</html>
